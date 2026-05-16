@@ -1,386 +1,55 @@
 <!DOCTYPE html>
-
-<html class="light" lang="nl"><head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Cobblit® - Assembly Reimagined</title>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&amp;family=Inter:wght@400&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<script id="tailwind-config">
-        tailwind.config = {
-            darkMode: "class",
-            theme: {
-                extend: {
-                    "colors": {
-                        "on-primary-fixed-variant": "#394a4b",
-                        "on-surface": "#191c1d",
-                        "surface-variant": "#e1e2e4",
-                        "tertiary-container": "#282826",
-                        "outline-variant": "#c2c7c7",
-                        "on-secondary": "#ffffff",
-                        "on-secondary-fixed": "#102000",
-                        "surface-dim": "#d9dadb",
-                        "surface-bright": "#f8f9fa",
-                        "surface-container-lowest": "#ffffff",
-                        "on-surface-variant": "#424848",
-                        "background": "#f8f9fa",
-                        "surface-container-high": "#e7e8e9",
-                        "outline": "#727878",
-                        "surface": "#f8f9fa",
-                        "inverse-primary": "#b7cacb",
-                        "secondary-fixed-dim": "#a2d663",
-                        "primary-container": "#1a2b2c",
-                        "tertiary": "#131412",
-                        "tertiary-fixed-dim": "#c8c6c3",
-                        "on-secondary-fixed-variant": "#2f4f00",
-                        "on-secondary-container": "#436e00",
-                        "surface-container": "#edeeef",
-                        "on-tertiary-fixed": "#1c1c1a",
-                        "inverse-on-surface": "#f0f1f2",
-                        "error": "#ba1a1a",
-                        "error-container": "#ffdad6",
-                        "secondary-container": "#baf079",
-                        "secondary": "#3f6900",
-                        "surface-container-low": "#f3f4f5",
-                        "on-tertiary-container": "#908f8c",
-                        "surface-container-highest": "#e1e2e4",
-                        "on-background": "#191c1d",
-                        "on-primary-container": "#809394",
-                        "surface-tint": "#506263",
-                        "on-error-container": "#93000a",
-                        "on-primary-fixed": "#0d1e1f",
-                        "tertiary-fixed": "#e5e2de",
-                        "secondary-fixed": "#bdf37c",
-                        "on-primary": "#ffffff",
-                        "on-error": "#ffffff",
-                        "primary-fixed-dim": "#b7cacb",
-                        "inverse-surface": "#2e3132",
-                        "primary-fixed": "#d3e6e7",
-                        "on-tertiary": "#ffffff",
-                        "primary": "#051617",
-                        "on-tertiary-fixed-variant": "#474744"
-                    },
-                    "borderRadius": {
-                        "DEFAULT": "0.25rem",
-                        "lg": "0.5rem",
-                        "xl": "0.75rem",
-                        "full": "9999px"
-                    },
-                    "spacing": {
-                        "unit": "8px",
-                        "container-max": "1280px",
-                        "gutter": "32px",
-                        "margin-mobile": "20px",
-                        "section-padding": "120px"
-                    },
-                    "fontFamily": {
-                        "display": ["Space Grotesk"],
-                        "nav-link": ["Space Grotesk"],
-                        "headline-h2": ["Space Grotesk"],
-                        "body-md": ["Inter"],
-                        "headline-h1": ["Space Grotesk"],
-                        "headline-h3": ["Space Grotesk"],
-                        "label-caps": ["Space Grotesk"],
-                        "body-lg": ["Inter"]
-                    },
-                    "fontSize": {
-                        "display": ["72px", { "lineHeight": "1.1", "letterSpacing": "-0.04em", "fontWeight": "600" }],
-                        "nav-link": ["14px", { "lineHeight": "1", "letterSpacing": "0.05em", "fontWeight": "500" }],
-                        "headline-h2": ["32px", { "lineHeight": "1.3", "fontWeight": "500" }],
-                        "body-md": ["16px", { "lineHeight": "1.6", "fontWeight": "400" }],
-                        "headline-h1": ["48px", { "lineHeight": "1.2", "letterSpacing": "-0.02em", "fontWeight": "500" }],
-                        "headline-h3": ["24px", { "lineHeight": "1.4", "fontWeight": "500" }],
-                        "label-caps": ["12px", { "lineHeight": "1", "letterSpacing": "0.15em", "fontWeight": "600" }],
-                        "body-lg": ["18px", { "lineHeight": "1.6", "fontWeight": "400" }]
-                    }
-                }
-            }
-        }
-    </script>
-<style>
-        .material-symbols-outlined {
-            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-        }
-        .material-symbols-outlined.filled {
-            font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-        }
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Not Found</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+        .animate-fade-in { animation: fadeIn 1s ease-out; }
     </style>
 </head>
-<body class="bg-background text-on-background antialiased font-body-md selection:bg-secondary selection:text-on-secondary">
-<!-- TopNavBar Shared Component -->
-<header class="fixed top-0 left-0 right-0 z-50 flex justify-between items-center px-6 md:px-8 py-4 bg-surface/80 backdrop-blur-xl border border-outline-variant/20 shadow-[0_60px_60px_rgba(26,43,44,0.04)] rounded-full mt-2 md:mt-4 mx-auto w-[95%] max-w-container-max">
-    <a class="flex items-center" href="/">
-        <img src="/Logo-Groen-Pay-off-Trademark-1.svg" alt="Cobblit® Logo" class="h-8 md:h-10 w-auto">
-    </a>
+<body class="bg-white text-black font-sans selection:bg-black selection:text-white">
+    <div class="flex flex-col items-center justify-center min-h-screen p-4">
+        <div class="max-w-md w-full space-y-8 text-center animate-fade-in">
+            <h1 class="text-[10rem] md:text-[12rem] font-black leading-none tracking-tighter opacity-5 select-none pointer-events-none">
+                404
+            </h1>
+            
+            <div class="-mt-20 space-y-4">
+                <h2 class="text-4xl font-bold tracking-tight">
+                    Pagina niet gevonden
+                </h2>
+                <p class="text-lg text-gray-500">
+                    De pagina die je zoekt is verplaatst of bestaat niet meer. 
+                    Je wordt over enkele seconden doorgestuurd naar <span class="font-semibold text-black">cobblit.nl</span>.
+                </p>
+            </div>
+
+            <div class="pt-8">
+                <a 
+                    href="https://cobblit.nl"
+                    class="inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white bg-black hover:bg-gray-900 transition-all duration-300 rounded-full group"
+                >
+                    <span>Ga naar Cobblit</span>
+                    <svg 
+                        class="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" 
+                        fill="none" 
+                        viewBox="0 0 24 24" 
+                        stroke="currentColor"
+                    >
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
     
-    <!-- Desktop Nav -->
-    <nav class="hidden md:flex items-center gap-8">
-        <a class="font-nav-link text-nav-link uppercase tracking-[0.05em] text-on-surface-variant dark:text-on-primary-container hover:text-secondary transition-all duration-300" href="/producten.html">Producten</a>
-        <a class="font-nav-link text-nav-link uppercase tracking-[0.05em] text-on-surface-variant dark:text-on-primary-container hover:text-secondary transition-all duration-300" href="/stappenplan.html">Stappenplan</a>
-        <a class="font-nav-link text-nav-link uppercase tracking-[0.05em] text-on-surface-variant dark:text-on-primary-container hover:text-secondary transition-all duration-300" href="/verkooppunten.html">Verkooppunten</a>
-        <a class="font-nav-link text-nav-link uppercase tracking-[0.05em] text-on-surface-variant dark:text-on-primary-container hover:text-secondary transition-all duration-300" href="/contact.html">Contact</a>
-    </nav>
-
-    <div class="flex items-center gap-4 md:gap-6">
-        <div class="relative group">
-            <button class="text-primary dark:text-primary-fixed hover:translate-y-[-4px] transition-all flex items-center gap-1">
-                <span class="material-symbols-outlined text-[20px]">language</span>
-                <span class="text-[12px] font-bold uppercase">NL</span>
-            </button>
-            <div class="absolute right-0 top-full pt-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-[70]">
-                <div class="bg-surface border border-outline-variant/20 rounded-xl shadow-xl p-2 min-w-[80px]">
-                    <a href="/index.html" class="block px-4 py-2 text-[12px] font-bold uppercase hover:bg-surface-container rounded-lg transition-colors">NL</a>
-                    <a href="/en/index.html" class="block px-4 py-2 text-[12px] font-bold uppercase hover:bg-surface-container rounded-lg transition-colors">EN</a>
-                    <a href="/de/index.html" class="block px-4 py-2 text-[12px] font-bold uppercase hover:bg-surface-container rounded-lg transition-colors">DE</a>
-                </div>
-            </div>
-        </div>
-        <button class="text-primary dark:text-primary-fixed hover:translate-y-[-4px] transition-all">
-            <span class="material-symbols-outlined">shopping_bag</span>
-        </button>
-        <a class="hidden md:block font-nav-link text-nav-link uppercase tracking-[0.05em] text-primary dark:text-primary-fixed hover:translate-y-[-4px] transition-all" href="#">Account</a>
-        
-        <!-- Mobile Menu Button -->
-        <button id="mobile-menu-button" class="md:hidden text-primary p-2">
-            <span class="material-symbols-outlined">menu</span>
-        </button>
-    </div>
-</header>
-
-<!-- Mobile Menu Overlay -->
-<div id="mobile-menu" class="fixed inset-0 z-[60] bg-surface translate-x-full transition-transform duration-500 ease-[cubic-bezier(0.2,0.8,0.2,1)] md:hidden">
-    <div class="flex flex-col h-full p-8">
-        <div class="flex justify-between items-center mb-12">
-            <a class="flex items-center" href="/">
-                <img src="/Logo-Groen-Pay-off-Trademark-1.svg" alt="Cobblit® Logo" class="h-8">
-            </a>
-            <button id="close-menu-button" class="text-primary p-2">
-                <span class="material-symbols-outlined">close</span>
-            </button>
-        </div>
-        <nav class="flex flex-col gap-8">
-            <a class="font-display text-4xl text-primary" href="/producten.html">Producten</a>
-            <a class="font-display text-4xl text-primary" href="/stappenplan.html">Stappenplan</a>
-            <a class="font-display text-4xl text-primary" href="/verkooppunten.html">Verkooppunten</a>
-            <a class="font-display text-4xl text-primary" href="/contact.html">Contact</a>
-        </nav>
-        <div class="mt-auto pt-12 border-t border-outline-variant/20">
-            <a class="block font-nav-link text-nav-link uppercase tracking-widest text-primary mb-6" href="#">Account</a>
-            <div class="flex gap-6">
-                <span class="material-symbols-outlined">language</span>
-                <span class="material-symbols-outlined">shopping_bag</span>
-            </div>
-        </div>
-    </div>
-</div>
-<main>
-<!-- Hero Section -->
-<section class="bg-primary-container min-h-[700px] md:min-h-[921px] flex items-center relative overflow-hidden px-margin-mobile md:px-gutter pt-36 md:pt-0">
-<!-- Decorative Elements -->
-<div class="absolute inset-0 bg-gradient-to-b from-transparent to-primary/20 pointer-events-none"></div>
-<div class="absolute top-1/4 right-1/4 w-[800px] h-[800px] bg-secondary-container/5 rounded-full blur-3xl pointer-events-none"></div>
-<div class="max-w-container-max mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-16 items-center relative z-10">
-<div class="flex flex-col items-start gap-8 z-20">
-<div class="font-label-caps text-label-caps text-secondary-fixed tracking-[0.15em] uppercase">Cobblit® Assembly Reimagined</div>
-<h1 class="font-display text-[40px] md:text-display text-on-primary leading-tight">
-                        De nieuwe standaard in paalmontage.
-                    </h1>
-<p class="font-body-lg text-body-lg text-on-primary-container max-w-xl">
-                        Ontdek de Cobblit® VZ150. Snel, strak en technisch superieur. Ervaar industriële precisie verpakt in minimalistisch design.
-                    </p>
-<a class="inline-flex items-center justify-center bg-secondary text-on-secondary px-8 py-4 rounded-full font-nav-link text-nav-link uppercase tracking-[0.05em] hover:translate-y-[-4px] hover:shadow-[0_20px_40px_rgba(63,105,0,0.3)] transition-all duration-500 ease-[cubic-bezier(0.2,0.8,0.2,1)] group mt-4" href="/producten.html">
-                        Bekijk VZ150 — €19,95
-                        <span class="material-symbols-outlined ml-2 group-hover:translate-x-1 transition-transform">arrow_forward</span>
-</a>
-</div>
-<div class="relative h-[350px] md:h-[500px] lg:h-[700px] w-full group mt-8 lg:mt-0">
-<!-- Glassmorphic backplate -->
-<div class="absolute inset-4 md:inset-8 bg-surface/5 backdrop-blur-3xl rounded-[2rem] border border-surface/10 transform rotate-3 group-hover:rotate-0 transition-transform duration-700 ease-[cubic-bezier(0.2,0.8,0.2,1)]"></div>
-<img alt="Cobblit VZ150 Product Render" class="absolute inset-0 w-full h-full object-contain md:object-cover rounded-[2rem] shadow-[0_60px_60px_rgba(26,43,44,0.2)] transform -rotate-2 group-hover:rotate-0 group-hover:scale-[1.02] transition-all duration-700 ease-[cubic-bezier(0.2,0.8,0.2,1)]" src="/Cobblit-VCZ_0197_2_LowRes-1536x1024.jpg"/>
-<!-- Floating Tech Specs Overlay -->
-<div class="absolute bottom-12 -left-12 bg-surface/80 backdrop-blur-xl border border-outline-variant/20 p-6 rounded-2xl shadow-[0_60px_60px_rgba(26,43,44,0.04)] hidden md:block group-hover:translate-y-[-8px] transition-transform duration-700 ease-[cubic-bezier(0.2,0.8,0.2,1)]">
-<div class="font-label-caps text-label-caps text-on-surface-variant mb-2">Treksterkte</div>
-<div class="font-headline-h2 text-headline-h2 text-on-surface">150 KG</div>
-</div>
-</div>
-</div>
-</section>
-    <!-- Product Overview Section -->
-    <section class="py-16 md:py-section-padding px-margin-mobile md:px-gutter bg-surface">
-        <div class="max-w-container-max mx-auto">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-                <div class="order-2 lg:order-1">
-                    <div class="font-label-caps text-label-caps text-secondary mb-4 tracking-[0.15em] uppercase">Innovatie in Montage</div>
-                    <h2 class="font-display text-[32px] md:text-headline-h1 text-primary mb-8 leading-tight">Een stevige basis voor elk project.</h2>
-                    <div class="space-y-6 font-body-lg text-body-lg text-on-surface-variant">
-                        <p>
-                            De Cobblit® VZ150 is een innovatief koppelstuk voor het verbinden van houten staanders op betonpoeren, betonnen ondergronden of funderingen.
-                        </p>
-                        <p>
-                            Het systeem bestaat uit een onderplaat en bovenplaat die eenvoudig in elkaar schuiven en geborgd worden. Dit resulteert in een sterke en stabiele verbinding met een nette afwerking.
-                        </p>
-                        <p>
-                            Cobblit® is bijzonder geschikt voor situaties waar traditionele paalankers minder goed toepasbaar zijn, zoals montage tegen of naast een muur, schutting of plantenbak. Ook bij bestaande situaties biedt Cobblit® een praktische oplossing.
-                        </p>
-                    </div>
-                </div>
-                <div class="order-1 lg:order-2 relative aspect-square bg-surface-container rounded-3xl overflow-hidden group shadow-2xl">
-                    <img src="/VCZ_2069.jpg" 
-                         alt="Cobblit VZ150 Close-up" 
-                         class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
-                    <div class="absolute inset-0 bg-gradient-to-t from-primary/40 to-transparent"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Benefits Section (Dark) -->
-    <section class="py-16 md:py-section-padding px-margin-mobile md:px-gutter bg-primary text-on-primary">
-        <div class="max-w-container-max mx-auto text-center mb-16">
-            <h2 class="font-display text-headline-h1 mb-4">De voordelen van de VZ150</h2>
-            <p class="font-body-lg text-on-primary-container max-w-2xl mx-auto">Vervaardigd uit hoogwaardig aluminium en voorzien van een zwarte poedercoating voor een moderne uitstraling en duurzame bescherming.</p>
-        </div>
-        
-        <div class="max-w-container-max mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <!-- Benefit 1 -->
-            <div class="p-8 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm">
-                <span class="material-symbols-outlined text-secondary text-4xl mb-6">verified</span>
-                <h3 class="font-headline-h3 mb-4">Stabiel & Spelingsvrij</h3>
-                <p class="text-on-primary/60">Zorgt voor een robuuste constructie zonder ongewenste speling in de verbinding.</p>
-            </div>
-            <!-- Benefit 2 -->
-            <div class="p-8 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm">
-                <span class="material-symbols-outlined text-secondary text-4xl mb-6">speed</span>
-                <h3 class="font-headline-h3 mb-4">Snelle Montage</h3>
-                <p class="text-on-primary/60">Minimale uitleg nodig. Dankzij het compacte ontwerp is het systeem eenvoudig te hanteren.</p>
-            </div>
-            <!-- Benefit 3 -->
-            <div class="p-8 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm">
-                <span class="material-symbols-outlined text-secondary text-4xl mb-6">design_services</span>
-                <h3 class="font-headline-h3 mb-4">Strakke Afwerking</h3>
-                <p class="text-on-primary/60">Zonder zichtbare openingen, wat tocht en ongedierte onder de staanders voorkomt.</p>
-            </div>
-            <!-- Benefit 4 -->
-            <div class="p-8 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm">
-                <span class="material-symbols-outlined text-secondary text-4xl mb-6">water_drop</span>
-                <h3 class="font-headline-h3 mb-4">Vocht Afvoer</h3>
-                <p class="text-on-primary/60">Geïntegreerde vocht afvoerkanaaltjes beschermen het hout en verlengen de levensduur.</p>
-            </div>
-            <!-- Benefit 5 -->
-            <div class="p-8 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm">
-                <span class="material-symbols-outlined text-secondary text-4xl mb-6">layers</span>
-                <h3 class="font-headline-h3 mb-4">Veelzijdig</h3>
-                <p class="text-on-primary/60">Toepasbaar op betonpoeren, betonplaten en bestrating. Perfect voor lastige hoeken.</p>
-            </div>
-            <!-- Benefit 6 -->
-            <div class="p-8 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm">
-                <span class="material-symbols-outlined text-secondary text-4xl mb-6">build</span>
-                <h3 class="font-headline-h3 mb-4">Onderhoudsvriendelijk</h3>
-                <p class="text-on-primary/60">Ook demonteren of vervangen van een staander is met Cobblit® eenvoudig.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Testimonial Section -->
-    <section class="py-16 md:py-section-padding px-margin-mobile md:px-gutter bg-surface-container-lowest">
-        <div class="max-w-4xl mx-auto text-center">
-            <span class="material-symbols-outlined text-secondary text-6xl mb-8 opacity-20">format_quote</span>
-            <p class="font-display text-headline-h2 text-primary italic mb-8">
-                “Geweldige ervaring met het Cobblit® koppelstuk, eenvoudige en snelle montage en de beste oplossing voor een lange levensduur van de houten constructie.”
-            </p>
-            <div class="flex items-center justify-center gap-4">
-                <div class="w-12 h-12 rounded-full bg-secondary-container flex items-center justify-center text-secondary font-bold text-xl">H2</div>
-                <div class="text-left">
-                    <div class="font-headline-h3 text-primary">H2 Groen</div>
-                    <div class="font-label-caps text-on-surface-variant text-sm tracking-widest">Professionele Gebruiker</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- FAQ & DIY Section -->
-    <section class="py-16 md:py-section-padding px-margin-mobile md:px-gutter bg-surface">
-        <div class="max-w-container-max mx-auto">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-24">
-                <!-- DIY Info -->
-                <div>
-                    <h2 class="font-display text-headline-h2 text-primary mb-8">Eenvoudig & snel zelf te monteren</h2>
-                    <p class="font-body-lg text-body-lg text-on-surface-variant mb-12 leading-relaxed">
-                        De Cobblit® VZ150 is eenvoudig zelf te monteren en vereist geen specialistische kennis. Dankzij de overzichtelijke montage bespaart u tijd en werkt u met minder gereedschap. Of u nu een nieuwe constructie bouwt of een bestaande situatie aanpast: met Cobblit® werkt u overzichtelijker en efficiënter.
-                    </p>
-                    <a href="/stappenplan.html" class="inline-flex items-center text-secondary font-bold hover:gap-4 transition-all duration-300">
-                        BEKIJK HET STAPPENPLAN
-                        <span class="material-symbols-outlined ml-2">arrow_forward</span>
-                    </a>
-                </div>
-
-                <!-- FAQ Question -->
-                <div class="p-12 rounded-3xl bg-surface-container border border-outline-variant/10">
-                    <h3 class="font-display text-headline-h3 text-primary mb-6">Kan ik de Cobblit® VZ150 gebruiken voor mijn overkapping of tuinhuis?</h3>
-                    <p class="font-body-md text-body-md text-on-surface-variant mb-8 leading-relaxed">
-                        Ja. De Cobblit® VZ150 is geschikt voor houten palen vanaf 150 × 150 mm en biedt een sterke en stabiele verbinding op betonpoeren, betonplaten en bestrating. Het systeem maakt het mogelijk om palen snel, strak en efficiënt te plaatsen, ook op lastig bereikbare plekken zoals tegen of naast een muur, schutting of bloembak.
-                    </p>
-                    <div class="bg-white/50 p-6 rounded-xl border border-white/20">
-                        <p class="font-body-md text-primary font-medium italic">Wilt u een tuinhuis, pergola of overkapping bouwen met een nette afwerking en een stabiele constructie? Dan is de Cobblit® VZ150 de oplossing.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Final CTA Section -->
-    <section class="py-32 px-margin-mobile md:px-gutter bg-primary-container relative overflow-hidden">
-        <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(63,105,0,0.15)_0%,transparent_70%)]"></div>
-        <div class="max-w-container-max mx-auto text-center relative z-10">
-            <h2 class="font-display text-display text-on-primary mb-8">Zelf gebruiken of verkopen?</h2>
-            <p class="font-body-lg text-on-primary-container mb-12 max-w-xl mx-auto">Kom direct in contact met ons voor projectprijzen, technische ondersteuning of dealerschappen.</p>
-            <div class="flex flex-col md:flex-row gap-6 justify-center">
-                <a href="/contact.html" class="px-12 py-5 bg-secondary text-on-secondary rounded-full font-label-caps tracking-widest hover:translate-y-[-4px] hover:shadow-2xl transition-all duration-500">NEEM CONTACT OP</a>
-                <a href="/verkooppunten.html" class="px-12 py-5 border border-white/20 text-on-primary rounded-full font-label-caps tracking-widest hover:bg-white/5 transition-all duration-500">VIND EEN VERKOOPPUNT</a>
-            </div>
-        </div>
-    </section>
-</main>
-<!-- Footer Shared Component -->
-<footer class="w-full pt-section-padding pb-gutter bg-primary dark:bg-tertiary-container text-on-primary dark:text-tertiary-fixed">
-<div class="w-full px-gutter max-w-container-max mx-auto flex flex-col md:flex-row justify-between items-start gap-12 md:gap-0">
-<div class="mb-8">
-    <img src="/Logo-Groen-Pay-off-Trademark-1.svg" alt="Cobblit® Logo" class="h-10 md:h-12 w-auto invert brightness-0">
-</div>
-<div class="flex flex-col md:flex-row gap-8 md:gap-16">
-<nav class="flex flex-col gap-4">
-<a class="font-body-md text-body-md text-on-primary/60 hover:text-secondary-fixed transition-colors duration-300 opacity-80 hover:opacity-100" href="#">Privacybeleid</a>
-<a class="font-body-md text-body-md text-on-primary/60 hover:text-secondary-fixed transition-colors duration-300 opacity-80 hover:opacity-100" href="#">Algemene Voorwaarden</a>
-<a class="font-body-md text-body-md text-on-primary/60 hover:text-secondary-fixed transition-colors duration-300 opacity-80 hover:opacity-100" href="#">Verzending</a>
-<a class="font-body-md text-body-md text-on-primary/60 hover:text-secondary-fixed transition-colors duration-300 opacity-80 hover:opacity-100" href="/contact.html">Contact</a>
-</nav>
-</div>
-</div>
-<div class="w-full px-gutter max-w-container-max mx-auto mt-16 pt-8 border-t border-on-primary/10">
-<p class="font-body-md text-body-md text-on-primary/60">© 2024 Cobblit®. Alle rechten voorbehouden. Technical Elegance Defined.</p>
-</div>
-</footer>
-<script>
-    const mobileMenuButton = document.getElementById('mobile-menu-button');
-    const closeMenuButton = document.getElementById('close-menu-button');
-    const mobileMenu = document.getElementById('mobile-menu');
-
-    mobileMenuButton.addEventListener('click', () => {
-        mobileMenu.classList.remove('translate-x-full');
-    });
-
-    closeMenuButton.addEventListener('click', () => {
-        mobileMenu.classList.add('translate-x-full');
-    });
-
-    // Close menu on link click
-    const menuLinks = mobileMenu.querySelectorAll('a');
-    menuLinks.forEach(link => {
-        link.addEventListener('click', () => {
-            mobileMenu.classList.add('translate-x-full');
-        });
-    });
-</script>
-</body></html>
+    <script>
+        setTimeout(() => {
+            window.location.href = 'https://cobblit.nl';
+        }, 3000);
+    </script>
+</body>
+</html>
